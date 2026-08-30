@@ -28,6 +28,8 @@ The same-session case is worth naming because the skill's own first line doesn't
 
 If the tickets came from [to-tickets](https://aihero.dev/skills-to-tickets), the tracker they live on was configured by [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills). `code-review` reads the same configuration to find the originating spec at close-out.
 
+`implement` runs in your session, on your current branch. It does not sandbox. For the same build running AFK inside a Docker container on an isolated branch - batch, parallel, or unattended - [setup-sandcastle](https://aihero.dev/skills-setup-sandcastle) mounts the skills into a sandbox and consumes the same tickets.
+
 ## What one run does
 
 A run is five beats, in order:
